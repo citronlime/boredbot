@@ -1,0 +1,92 @@
+body{
+
+    font-size:1rem;
+    font-family: 'Hina Mincho', serif;
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+h1{
+    font-size:3rem;
+    color:yellow;
+margin:0;
+
+}
+h4{
+    font-size:2rem;
+    margin-top:0;
+    text-align:center;
+
+}
+.large{
+    font-size:4rem;
+    font-weight:bold;
+    letter-spacing: 2px;
+    font-family: 'Allison', cursive;
+    opacity:0.7;
+    border-bottom:5px;
+}
+.green{
+    color:gold;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    opacity:0.7
+}
+.uppercase{
+    text-transform: uppercase;
+    font-family: 'Hina Mincho', serif;
+    letter-spacing: 2px;
+opacity:0.7
+}
+
+#container{
+    max-width:800px;
+    width:90%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0 auto;
+
+
+}
+.flex-row{
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+button{
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    background-color: red;
+    border:3px solid black;
+    cursor: pointer;
+    display:inline-block;
+
+}
+.gradient-pink{
+    background: #DA4453;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89216B, #DA4453);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89216B, #DA4453); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.gradient-green{
+    background: #00b09b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.pattern{
+    background: url("watercolor.png");
+
+
+}
+.default{
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
