@@ -1,5 +1,7 @@
 # boredbot
 Working with fetch
-Scrimba project working with apis and fetch. 
-Just having fun changin the styles randomli when clicking the button. 
-The randomized text is fetched from boredapi via scrimba
+1. Scrimba project working with apis and fetch.
+
+2. Just having fun changing the styles randomly when clicking the button. 
+
+3. The randomized text is fetched from boredapi via scrimba
